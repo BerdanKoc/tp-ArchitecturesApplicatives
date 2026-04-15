@@ -1,0 +1,26 @@
+# Dépendances Node.js (Le plus important !)
+node_modules/
+
+# Fichiers de base de données SQLite 
+# (Pour éviter de commiter vos données de test locales sur GitHub)
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+
+# Fichiers de variables d'environnement (Sécurité : mots de passe, clés secrètes)
+.env
+.env.test
+.env.local
+
+# Fichiers de logs générés en cas d'erreur
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Rapports de couverture de tests (Générés par Jest)
+coverage/
+
+# Fichiers systèmes cachés (Mac & Windows)
+.DS_Store
+Thumbs.db
